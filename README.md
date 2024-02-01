@@ -15,6 +15,11 @@ source source venv/bin/activate
 pip install
 python find_ip.py
 ```
+To exit the virtual environment, run:
+```bash
+deactivate
+```
+
 ### How to run on a Raspberry Py
 To  run the script on startup, follow the instructions [here](https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/)
 
