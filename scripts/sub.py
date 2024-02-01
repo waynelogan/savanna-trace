@@ -3,7 +3,7 @@ import paho.mqtt.client as mqtt
 # MQTT Broker settings
 broker_address = "broker.emqx.io" 
 port = 1883
-topic = "testtopic/ip"  
+topic = "savannah/ip"  
 
 # Callback when a message is received
 def on_message(client, userdata, message):
