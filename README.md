@@ -23,5 +23,20 @@ deactivate
 ### How to run on a Raspberry Py
 To  run the script on startup, follow the instructions [here](https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/)
 
+
 ### Test of IP pub sub
 <img width="754" alt="image" src="https://github.com/waynelogan/savanna-trace/assets/87014851/8d2962f5-ccb4-4403-a215-55f23276ebd9">
+
+## Frontend
+[View Live Demo](https://savannah-trace.netlify.app)
+**Disclaimer: the public test broker has extremely high latency and in local tests, it took at least 2 minutes to get a response on our topic**
+
+The frontend is implemented using React and Next JS 14 (with App router).
+It uses the `mqtt.js` library to connect to EQMX via websockets.
+To run, navigate to the homepage of the project and run the following commands:
+```bash
+yarn install
+yarn dev
+```
+
+<img width="960" alt="image" src="https://github.com/waynelogan/savanna-trace/assets/87014851/e07a1258-a13c-487f-81f1-a0f30152ece3">
