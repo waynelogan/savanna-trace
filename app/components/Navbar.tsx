@@ -22,7 +22,7 @@ export default function Navbar() {
                     <h1 className="text-2xl md:text-4xl font-bold">
                         Savannah {" "}
                         <span className='text-primary'>
-                            Travel
+                            Trace
                         </span>
                     </h1>
                 </Link>
