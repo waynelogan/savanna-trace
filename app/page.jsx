@@ -1,8 +1,8 @@
-export default function Home () {
-   
-   return (
-       <main>
-        Hello world
-       </main>
-   )
+export default function Home() {
+
+    return (
+        <main>
+            Hello World
+        </main>
+    )
 }
