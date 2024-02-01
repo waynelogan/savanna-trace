@@ -18,4 +18,5 @@ python find_ip.py
 ### How to run on a Raspberry Py
 To  run the script on startup, follow the instructions [here](https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/)
 
-
+### Test of IP pub sub
+<img width="754" alt="image" src="https://github.com/waynelogan/savanna-trace/assets/87014851/8d2962f5-ccb4-4403-a215-55f23276ebd9">
