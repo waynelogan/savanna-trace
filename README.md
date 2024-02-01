@@ -12,6 +12,7 @@ Run the following commands from the root of the project
 ```bash
 cd ./scripts
 source source venv/bin/activate
+pip install
 python find_ip.py
 ```
 ### How to run on a Raspberry Py
