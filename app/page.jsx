@@ -43,9 +43,9 @@ const App = () => {
     }, [])
 
     return (
-        <main className='w-screen flex flex-col items-center'>
-            <div className='flex flex-col items-center'>
-                <h1 className='my-4'>
+        <main className='w-screen flex flex-col items-center text-gray-900'>
+            <div className='flex flex-col items-center border border-gray-300 w-fit h-fit my-6 py-12 px-20 rounded-lg'>
+                <h1 className='my-8'>
                      {
                     showIP === true
                     ?
@@ -59,7 +59,7 @@ const App = () => {
                
                 <button
                 onClick={() => setShowIP(true)}
-                className='border border-gray-400 py-2 px-4 rounded-md'
+                className='border border-gray-400 py-2 px-4 rounded-md text-inherit hover:bg-gray-100 active:bg-gray-200'
                 >
                     Show IP
                 </button>
