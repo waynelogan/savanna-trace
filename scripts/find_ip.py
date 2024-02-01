@@ -32,3 +32,6 @@ if ip_address:
     print(f"Raspberry Pi's IP address: {ip_address}")
 else:
     print("Unable to retrieve IP address.")
+
+if __name__ == "__main__":
+    get_ip_address()
