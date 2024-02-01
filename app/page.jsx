@@ -5,7 +5,7 @@ import mqtt from 'mqtt' //using only 'mqtt' throws some error about polyfills.
 import { useToast } from '@/components/ui/use-toast'
 
 
-const mqttHost = 'ws://broker.emqx.io:8083/mqtt'
+const mqttHost = 'wss://broker.emqx.io:8084/mqtt'
 const ipTopic = 'savannah'
 const username = ''
 const password = ''
