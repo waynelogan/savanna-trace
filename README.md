@@ -5,7 +5,8 @@ Savannah Trace is a project that:
 - has a web page that on prompt, displays the IP address of the Raspberry Pi
 
 ## Raspberry Pi script
-The script is located at `./scripts/find_ip.py`
+The scripts are located at `./scripts/sub.py`
+`./scripts/pub.py`
 
 ### How to run locally
 Run the following commands from the root of the project
@@ -13,7 +14,8 @@ Run the following commands from the root of the project
 cd ./scripts
 source source venv/bin/activate
 pip install
-python find_ip.py
+python sub.py
+python pub.py # in another terminal window
 ```
 To exit the virtual environment, run:
 ```bash
